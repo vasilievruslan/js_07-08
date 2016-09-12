@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>js 07-08</title>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    
+    <section class="tabs">
+      <h2>Tabs</h2>
+      <ul class="tabs__panel">
+        <li class="tabs__item active" data-tab="tab-1">First tab</li>
+        <li class="tabs__item" data-tab="tab-2">Second tab</li>
+        <li class="tabs__item" data-tab="tab-3">Third tab</li>
+      </ul>
+      <div id="tab-1" class="tabs__content active">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nam molestias aspernatur unde culpa officiis fuga hic minima eos autem, tenetur porro iusto natus reprehenderit commodi nulla sed assumenda eligendi eaque. Possimus voluptas ut omnis soluta animi alias culpa debitis.</div>
+      <div id="tab-2" class="tabs__content">Eos reprehenderit culpa doloremque, corporis, aspernatur voluptatibus incidunt, recusandae cum doloribus libero ad cupiditate quaerat illo quibusdam ipsa, sequi accusamus. Cum, ratione. Dolore quasi tempore earum eaque architecto ea saepe facilis nihil sapiente, veniam error culpa, aspernatur maiores repellat voluptate.</div>
+      <div id="tab-3" class="tabs__content">Dolore consequuntur nulla quam alias! Ex esse, aliquam facilis praesentium dolorem obcaecati voluptates officiis optio nihil autem a laudantium aspernatur modi rem iure voluptate, cupiditate sunt excepturi! Quidem non delectus quia cupiditate? Quam voluptates non veritatis modi doloribus saepe! Vel.</div>
+    </section>
+    <section class="formsect">
+      <h2>Tooltip</h2>
+      <form action="" class="form">
+        <div class="formblock">
+          <span>First name:</span> <input class="input" data-hint="hint-1" type="text"/>
+          <div id="hint-1" class="helpmassage">Lorem ipsum.</div>
+        </div>
+        <div class="formblock">
+          <span>Last name:</span> <input class="input" data-hint="hint-2" type="text"/>
+          <div id="hint-2" class="helpmassage">Ratione, ea.</div>
+        </div>
+        <div class="formblock">
+          <span>Adress:</span> <input class="input" data-hint="hint-3" type="text"/>
+          <div id="hint-3" class="helpmassage">Fugiat, praesentium!</div>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
